@@ -43,8 +43,7 @@ disqusShortname = ""
     title = "DW-House"
     subtitle = "Mieszkania dla Ciebie i Twojej rodziny"
     menu = "Menu"
-    # Optional logo as brand stored in img/
-    logo = "img/logo_male.png"
+    logo = "logo.png"
 
     [[params.navigation.links]]
       name = "O inwestycji"
