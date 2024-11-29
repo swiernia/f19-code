@@ -1,0 +1,3 @@
+[submodule "f19/public"]
+	path = f19/public
+	url = https://github.com/swiernia/f19-deploy.git

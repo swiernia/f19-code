@@ -1,8 +1,8 @@
 #github resource
-#publishDir = "public"
+publishDir = "public"
 
 # Site settings
-baseURL = "https://dw-house.pl/"
+baseURL = "https://f19.pl/"
 languageCode = "en-us"
 title = "Fabryczna 19 w Legnicy"
 theme = "forty"
