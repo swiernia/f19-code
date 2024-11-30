@@ -51,27 +51,15 @@ disqusShortname = ""
 
     [[params.navigation.links]]
       name = "Galeria"
-      url = "galeria_mieszkania_sprzedaz_lubin.html"
+      url = "galeria_mieszkania_sprzedaz_legnica.html"
 
      [[params.navigation.links]]
       name = "Mieszkania"
-      url = "mieszkania_mieszkania_sprzedaz_lubin.html"
+      url = "mieszkania_mieszkania_sprzedaz_legnica.html"
 
      [[params.navigation.links]]
       name = "Lokalizacja"
-      url = "lokalizacja_mieszkania_sprzedaz_lubin.html"
-
-     [[params.navigation.links]]
-      name = "Zgłoszenie usterek"
-      url = "zgloszenie_usterek.html"
-
-     [[params.navigation.links]]
-      name = "Nasze zrealizowane projekty"
-      url = "poprzednie_realizacje_lubin.html"
-
-     [[params.navigation.links]]
-      name = "Kariera"
-      url = "kariera.html"
+      url = "lokalizacja_mieszkania_sprzedaz_legnica.html"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -95,8 +83,8 @@ disqusShortname = ""
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Fabryczna 19"
-    subtitle = "Komfortowe mieszkania w Legnicy\ndla Ciebie i Twojej rodziny"
+    title = "Nowa inwestycja w centrum Legnicy"
+    subtitle = "Komfortowe mieszkania dla Ciebie i Twojej rodziny"
     buttonText = "Dalej"
 
 
@@ -108,44 +96,26 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "O inwestycji"
       subtitle = "Dlaczego warto tu mieszkać"
-      image = "Wizualizacja_frontowa_fabryczna.png"
-      url = "o_inwestycji_mieszkania_sprzedaz_lubin.html"
+      image = "mural_sepia.jpg"
+      url = "o_inwestycji_mieszkania_sprzedaz_legnica.html"
 
     [[params.tiles.showcase]]
       title = "Galeria"
       subtitle = "Wizualizacje oraz zdjęcia budowy"
-      image = "wersja_duży_pokój_szafirowa.jpg"
-      url = "galeria_mieszkania_sprzedaz_lubin.html"
+      image = "parter.png"
+      url = "galeria_mieszkania_sprzedaz_legnica.html"
 
     [[params.tiles.showcase]]
       title = "Mieszkania"
       subtitle = "Zobacz listę dostępnych lokali"
       image = "Plan 1.1.png"
-      url = "mieszkania_mieszkania_sprzedaz_lubin.html"
+      url = "mieszkania_mieszkania_sprzedaz_legnica.html"
 
     [[params.tiles.showcase]]
       title = "Lokalizacja"
       subtitle = "Poznaj zalety mieszkania w centrum Legnicy"
       image = "google_maps.jpeg"
-      url = "lokalizacja_mieszkania_sprzedaz_lubin.html"
-
-    [[params.tiles.showcase]]
-      title = "Zgłoszenie usterek"
-      subtitle = "Miejsce dla naszych obecnych klientów do zgłaszania usterek"
-      image = "usterki.jpg"
-      url = "zgloszenie_usterek.html"
-
-    [[params.tiles.showcase]]
-      title = "Nasze zrealizowane projekty"
-      subtitle = "Zobacz co dotychczas wybudowaliśmy"
-      image = "Wizualizacja_frontowa_szafirowa_home.jpg"
-      url = "poprzednie_realizacje_lubin.html"
-
-    [[params.tiles.showcase]]
-      title = "Kariera"
-      subtitle = "Stanowiska na które obecnie rekrutujemy"
-      image = "job.jpg"
-      url = "kariera.html"
+      url = "lokalizacja_mieszkania_sprzedaz_legnica.html"
 
     # You can make more showcases by copy and pasting the code above
 
@@ -191,22 +161,22 @@ disqusShortname = ""
 
     [[params.contact.phone]]
     title = "Sprzedaż"
-    phone = "(+48) 733 575 888"
+    phone = "(+48) 731 121 888"
 
     [[params.contact.phone2]]
     title2 = "Biuro"
     phone2 = "(+48) 782 337 751"
 
     [[params.contact.address]]
-    title = "DW-House Sp. z o.o."
+    title = "DWH Invest Sp. z o.o."
     street = "ul. Św. Marcin 29/8"
     city = "61-806 Poznań"
-    country = "NIP: 783 175 30 42"
+    country = "NIP 739-390-63-90"
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = "DW-House Sp. z o.o."
+    copyright = "DWH Invest Sp. z o.o."
 
     # Uses font awesome icons
     [[params.footer.social]]
@@ -214,9 +184,5 @@ disqusShortname = ""
       url= "https://www.facebook.com/DW-House-102192045046053"
       label = "Facebook"
 
-    [[params.footer.social]]
-      icon = "fa-instagram"
-      url= "https://www.instagram.com"
-      label = "Instagram"
     
 
