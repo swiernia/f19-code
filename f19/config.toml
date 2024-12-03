@@ -96,7 +96,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "O inwestycji"
       subtitle = "Dlaczego warto tu mieszkać"
-      image = "mural_sepia.jpg"
+      image = "1 — 300 KB.jpg"
       url = "o_inwestycji_mieszkania_sprzedaz_legnica.html"
 
     [[params.tiles.showcase]]
