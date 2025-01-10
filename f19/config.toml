@@ -7,9 +7,6 @@ languageCode = "en-us"
 title = "Fabryczna 19 w Legnicy"
 theme = "forty"
 
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-178771454-1"
-
 # Enter your disqus shortname to enable comments
 disqusShortname = ""
 
@@ -108,7 +105,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Mieszkania"
       subtitle = "Zobacz listę dostępnych lokali"
-      image = "Plan 1.1.png"
+      image = "lista_lokali.png"
       url = "mieszkania_mieszkania_sprzedaz_legnica.html"
 
     [[params.tiles.showcase]]
@@ -150,7 +147,7 @@ disqusShortname = ""
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    formEmail = "biuro@dw-house.pl"
+    formEmail = "f/mkgnlnwa"
 
     # Contact Section
     # You can add multiple emails, phone numbers, or addresses
@@ -181,7 +178,7 @@ disqusShortname = ""
     # Uses font awesome icons
     [[params.footer.social]]
       icon = "fa-facebook"
-      url= "https://www.facebook.com/DW-House-102192045046053"
+      url= "https://www.facebook.com/profile.php?id=61569606495394"
       label = "Facebook"
 
     
