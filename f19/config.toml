@@ -99,7 +99,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Galeria"
       subtitle = "Wizualizacje oraz zdjęcia budowy"
-      image = "parter.png"
+      image = "czesci_wspolne_legnica_4.jpg"
       url = "galeria_mieszkania_sprzedaz_legnica.html"
 
     [[params.tiles.showcase]]
@@ -111,7 +111,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Lokalizacja"
       subtitle = "Poznaj zalety mieszkania w centrum Legnicy"
-      image = "google_maps.jpeg"
+      image = "google_maps_icon.jpg"
       url = "lokalizacja_mieszkania_sprzedaz_legnica.html"
 
     # You can make more showcases by copy and pasting the code above
