@@ -319,7 +319,7 @@
    "karta_pdf": "karty_lokali/Fabryczna19_L32_karta_sprzedazowa.pdf",
    "karta_img": "img/karty_lokali_img/KL_A32.jpg",
    "logo": "img/logo.png",
-   "cena": "309 000 zł"
+   "cena": null
   },
   {
    "id": "A33",
@@ -557,13 +557,13 @@
    "id": "A.01.KL01",
    "cena": null,
    "grupa": "Komórki lokatorskie",
-   "powierzchnia": "3,6"
+   "powierzchnia": "3,26"
   },
   {
    "id": "A.01.KL02",
    "cena": "12 000 zł",
    "grupa": "Komórki lokatorskie",
-   "powierzchnia": ",3"
+   "powierzchnia": "2,23"
   },
   {
    "id": "A.01.KL03",
@@ -575,19 +575,19 @@
    "id": "A.01.KL04",
    "cena": "13 000 zł",
    "grupa": "Komórki lokatorskie",
-   "powierzchnia": ",69"
+   "powierzchnia": "2,69"
   },
   {
    "id": "A.02.KL01",
    "cena": null,
    "grupa": "Komórki lokatorskie",
-   "powierzchnia": "3,6"
+   "powierzchnia": "3,26"
   },
   {
    "id": "A.02.KL02",
    "cena": "12 000 zł",
    "grupa": "Komórki lokatorskie",
-   "powierzchnia": ",3"
+   "powierzchnia": "2,23"
   },
   {
    "id": "A.02.KL03",
@@ -599,23 +599,23 @@
    "id": "A.02.KL04",
    "cena": null,
    "grupa": "Komórki lokatorskie",
-   "powierzchnia": ",69"
+   "powierzchnia": "2,69"
   },
   {
    "id": "A.03.KL01",
    "cena": null,
    "grupa": "Komórki lokatorskie",
-   "powierzchnia": "3,6"
+   "powierzchnia": "3,26"
   },
   {
    "id": "A.03.KL02",
    "cena": null,
    "grupa": "Komórki lokatorskie",
-   "powierzchnia": ",3"
+   "powierzchnia": "2,23"
   },
   {
    "id": "A.03.KL03",
-   "cena": null,
+   "cena": "9 000 zł",
    "grupa": "Komórki lokatorskie",
    "powierzchnia": "1,30"
   },
@@ -623,7 +623,7 @@
    "id": "A.03.KL04",
    "cena": null,
    "grupa": "Komórki lokatorskie",
-   "powierzchnia": ",69"
+   "powierzchnia": "2,69"
   }
  ]
 }
