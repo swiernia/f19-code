@@ -37,10 +37,16 @@ disqusShortname = ""
 
   # Navigation Section
   [params.navigation]
-    title = "DW-House"
-    subtitle = "Mieszkania dla Ciebie i Twojej rodziny"
+    title = "Fabryczna 19"
+    subtitle = "komfortowe mieszkania w Legnicy"
     menu = "Menu"
-    logo = "logo.png"
+    # logo = "logo.png"   # belka tekstowa, jak na opublikowanej stronie
+
+    [[params.navigation.links]]
+      name = "Strona główna"
+      url = "index.html"
+      class = "button special fit"
+      pomin_na_glownej = true
 
     [[params.navigation.links]]
       name = "O inwestycji"

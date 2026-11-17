@@ -1,0 +1,39 @@
+{{- /*
+  Nadpisanie partiala motywu forty. Jedyna roznica: klasa "alt" na #header
+  tylko na stronie glownej.
+
+  Dlaczego: w CSS motywu #header jest position:fixed (belka przyklejona),
+  a #header.alt to position:absolute i przezroczyste tlo - wariant na baner
+  strony glownej. JS motywu (main.js, ok. 197) zdejmuje "alt" dopiero po
+  przescrollowaniu #banner, a baner istnieje wylacznie na stronie glownej.
+  Na podstronach "alt" zostawal na stale i belka odjezdzala z trescia.
+  Opublikowane pliki maja "alt" tylko w index.html.
+*/ -}}
+{{ "<!-- Header -->" | safeHTML }}
+    <header id="header"{{ if .IsHome }} class="alt"{{ end }}>
+        <a href="{{ .Site.BaseURL }}" class="logo">{{ if .Site.Params.Navigation.logo }}<img src="{{ .Site.Params.baseURL }}/img/{{ .Site.Params.Navigation.logo }}" alt="" />{{ else }}<strong>{{ .Site.Params.Navigation.title }}</strong> <span>{{ .Site.Params.Navigation.subtitle }}</span>{{ end }}</a>
+        <nav>
+            <a href="#menu">{{ .Site.Params.Navigation.menu }}</a>
+        </nav>
+    </header>
+
+{{ "<!-- Menu -->" | safeHTML }}
+    <nav id="menu">
+        <ul class="links">
+            {{ $home := .IsHome }}
+            {{ range .Site.Params.Navigation.links }}
+                {{ if not (and $home .pomin_na_glownej) }}
+                <li><a href="{{ .url | absURL}}"{{ with .class }} class="{{ . }}"{{ end }}>{{ .name }}</a></li>
+                {{ end }}
+            {{ end }}
+
+        </ul>
+        <ul class="actions vertical">
+            {{ range .Site.Params.Navigation.button1 }}
+                <li><a href="{{ .url | absURL}}" class="button special fit">{{ .name }}</a></li>
+            {{ end }}
+            {{ range .Site.Params.Navigation.button2 }}
+                <li><a href="{{ .url | absURL}}" class="button fit">{{ .name }}</a></li>
+            {{ end }}
+        </ul>
+    </nav>
