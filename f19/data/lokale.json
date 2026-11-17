@@ -1,0 +1,629 @@
+{
+ "_opis": "Lista lokali, miejsc postojowych i komorek dla strony f19.pl. Zrodlo renderowane przez layouts/shortcodes/lista-lokali.html. cena = null oznacza pozycje sprzedana.",
+ "lokale": [
+  {
+   "id": "A1",
+   "pietro": "I piętro",
+   "powierzchnia": "37,41",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/KL_A1.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A1.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A2",
+   "pietro": "I piętro",
+   "powierzchnia": "58,69",
+   "pokoje": "3 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/KL_A2.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A2.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A3",
+   "pietro": "I piętro",
+   "powierzchnia": "37,86",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L3_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A3.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A4",
+   "pietro": "I piętro",
+   "powierzchnia": "37,71",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L4_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A4.jpg",
+   "logo": "img/logo.png",
+   "cena": "329 000 zł"
+  },
+  {
+   "id": "A5",
+   "pietro": "I piętro",
+   "powierzchnia": "37,19",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/KL_A5.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A5.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A6",
+   "pietro": "I piętro",
+   "powierzchnia": "39,17",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L6_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A6.jpg",
+   "logo": "img/logo.png",
+   "cena": "338 000 zł"
+  },
+  {
+   "id": "A7",
+   "pietro": "I piętro",
+   "powierzchnia": "34,95",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L7_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A7.jpg",
+   "logo": "img/logo.png",
+   "cena": "305 000 zł"
+  },
+  {
+   "id": "A8",
+   "pietro": "I piętro",
+   "powierzchnia": "62,37",
+   "pokoje": "3 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L8_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A8.jpg",
+   "logo": "img/logo.png",
+   "cena": "519 000 zł"
+  },
+  {
+   "id": "A9",
+   "pietro": "I piętro",
+   "powierzchnia": "33,48",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/KL_A9.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A9.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A10",
+   "pietro": "I piętro",
+   "powierzchnia": "34,02",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/KL_A10.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A10.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A11",
+   "pietro": "II piętro",
+   "powierzchnia": "37,50",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/KL_A11.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A11.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A12",
+   "pietro": "II piętro",
+   "powierzchnia": "58,69",
+   "pokoje": "3 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/KL_A12.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A12.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A13",
+   "pietro": "II piętro",
+   "powierzchnia": "38,12",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/KL_A13.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A13.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A14",
+   "pietro": "II piętro",
+   "powierzchnia": "37,74",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L14_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A14.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A15",
+   "pietro": "II piętro",
+   "powierzchnia": "37,08",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L15_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A15.jpg",
+   "logo": "img/logo.png",
+   "cena": "322 000 zł"
+  },
+  {
+   "id": "A16",
+   "pietro": "II piętro",
+   "powierzchnia": "39,17",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L16_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A16.jpg",
+   "logo": "img/logo.png",
+   "cena": "338 000 zł"
+  },
+  {
+   "id": "A17",
+   "pietro": "II piętro",
+   "powierzchnia": "35,68",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L17_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A17.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A18",
+   "pietro": "II piętro",
+   "powierzchnia": "62,48",
+   "pokoje": "3 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L18_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A18.jpg",
+   "logo": "img/logo.png",
+   "cena": "519 000 zł"
+  },
+  {
+   "id": "A19",
+   "pietro": "II piętro",
+   "powierzchnia": "67,48",
+   "pokoje": "4 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L19_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A19.jpg",
+   "logo": "img/logo.png",
+   "cena": "559 000 zł"
+  },
+  {
+   "id": "A20",
+   "pietro": "III piętro",
+   "powierzchnia": "37,50",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/KL_A20.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A20.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A21",
+   "pietro": "III piętro",
+   "powierzchnia": "58,69",
+   "pokoje": "3 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/KL_A21.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A21.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A22",
+   "pietro": "III piętro",
+   "powierzchnia": "38,12",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/KL_A22.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A22.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A23",
+   "pietro": "III piętro",
+   "powierzchnia": "37,93",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/KL_A23.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A23.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A24",
+   "pietro": "III piętro",
+   "powierzchnia": "37,08",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L24_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A24.jpg",
+   "logo": "img/logo.png",
+   "cena": "322 000 zł"
+  },
+  {
+   "id": "A25",
+   "pietro": "III piętro",
+   "powierzchnia": "39,17",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L25_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A25.jpg",
+   "logo": "img/logo.png",
+   "cena": "338 000 zł"
+  },
+  {
+   "id": "A26",
+   "pietro": "III piętro",
+   "powierzchnia": "35,66",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/KL_A26.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A26.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A27",
+   "pietro": "III piętro",
+   "powierzchnia": "62,48",
+   "pokoje": "3 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L27_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A27.jpg",
+   "logo": "img/logo.png",
+   "cena": "519 000 zł"
+  },
+  {
+   "id": "A28",
+   "pietro": "III piętro",
+   "powierzchnia": "67,74",
+   "pokoje": "4 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/KL_A28.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A28.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A29",
+   "pietro": "IV piętro",
+   "powierzchnia": "33,73",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/KL_A29.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A29.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A30",
+   "pietro": "IV piętro",
+   "powierzchnia": "58,77",
+   "pokoje": "3 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/KL_A30.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A30.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  },
+  {
+   "id": "A31",
+   "pietro": "IV piętro",
+   "powierzchnia": "67,55",
+   "pokoje": "3 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L31_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A31.jpg",
+   "logo": "img/logo.png",
+   "cena": "549 000 zł"
+  },
+  {
+   "id": "A32",
+   "pietro": "IV piętro",
+   "powierzchnia": "35,43",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L32_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A32.jpg",
+   "logo": "img/logo.png",
+   "cena": "309 000 zł"
+  },
+  {
+   "id": "A33",
+   "pietro": "IV piętro",
+   "powierzchnia": "41,41",
+   "pokoje": "2 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L33_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A33.jpg",
+   "logo": "img/logo.png",
+   "cena": "360 000 zł"
+  },
+  {
+   "id": "A34",
+   "pietro": "IV piętro",
+   "powierzchnia": "59,36",
+   "pokoje": "3 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/Fabryczna19_L34_karta_sprzedazowa.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A34.jpg",
+   "logo": "img/logo.png",
+   "cena": "494 000 zł"
+  },
+  {
+   "id": "A35",
+   "pietro": "IV piętro",
+   "powierzchnia": "59,70",
+   "pokoje": "4 pokoje z aneksem",
+   "karta_pdf": "karty_lokali/KL_A35.pdf",
+   "karta_img": "img/karty_lokali_img/KL_A35.jpg",
+   "logo": "img/logo.png",
+   "cena": null
+  }
+ ],
+ "miejsca_postojowe": [
+  {
+   "id": "MP-H1",
+   "cena": null,
+   "grupa": "Miejsca postojowe w hali garażowej",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-H2",
+   "cena": null,
+   "grupa": "Miejsca postojowe w hali garażowej",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-H3",
+   "cena": null,
+   "grupa": "Miejsca postojowe w hali garażowej",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-H4",
+   "cena": "30 000 zł",
+   "grupa": "Miejsca postojowe w hali garażowej",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-H5",
+   "cena": null,
+   "grupa": "Miejsca postojowe w hali garażowej",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-H6",
+   "cena": null,
+   "grupa": "Miejsca postojowe w hali garażowej",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-H7",
+   "cena": null,
+   "grupa": "Miejsca postojowe w hali garażowej",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-H8",
+   "cena": null,
+   "grupa": "Miejsca postojowe w hali garażowej",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-H9",
+   "cena": null,
+   "grupa": "Miejsca postojowe w hali garażowej",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-H10-EV",
+   "cena": null,
+   "grupa": "Miejsca postojowe w hali garażowej",
+   "rodzaj": "Instalacja pod EV"
+  },
+  {
+   "id": "MP-H11-EV",
+   "cena": null,
+   "grupa": "Miejsca postojowe w hali garażowej",
+   "rodzaj": "Instalacja pod EV"
+  },
+  {
+   "id": "MP-H12-EV",
+   "cena": null,
+   "grupa": "Miejsca postojowe w hali garażowej",
+   "rodzaj": "Instalacja pod EV"
+  },
+  {
+   "id": "MP-H13-EV",
+   "cena": "35 000 zł",
+   "grupa": "Miejsca postojowe w hali garażowej",
+   "rodzaj": "Instalacja pod EV"
+  },
+  {
+   "id": "MP-H14-EV",
+   "cena": null,
+   "grupa": "Miejsca postojowe w hali garażowej",
+   "rodzaj": "Instalacja pod EV"
+  },
+  {
+   "id": "MP-H15-EV",
+   "cena": null,
+   "grupa": "Miejsca postojowe w hali garażowej",
+   "rodzaj": "Instalacja pod EV"
+  },
+  {
+   "id": "MP-N1",
+   "cena": null,
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-N2",
+   "cena": null,
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-N3",
+   "cena": "15 000 zł",
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-N4",
+   "cena": "15 000 zł",
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-N5",
+   "cena": "15 000 zł",
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-N6",
+   "cena": "15 000 zł",
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-N7",
+   "cena": "15 000 zł",
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-N8",
+   "cena": "15 000 zł",
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-N9",
+   "cena": null,
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-N10",
+   "cena": null,
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-N11",
+   "cena": null,
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-N12",
+   "cena": "15 000 zł",
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-N13",
+   "cena": "15 000 zł",
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-N14",
+   "cena": "15 000 zł",
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-N15",
+   "cena": "15 000 zł",
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-N16",
+   "cena": "15 000 zł",
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-N17",
+   "cena": null,
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  },
+  {
+   "id": "MP-N18",
+   "cena": null,
+   "grupa": "Miejsca postojowe na patio",
+   "rodzaj": "Standard"
+  }
+ ],
+ "komorki": [
+  {
+   "id": "A.01.KL01",
+   "cena": null,
+   "grupa": "Komórki lokatorskie",
+   "powierzchnia": "3,6"
+  },
+  {
+   "id": "A.01.KL02",
+   "cena": "12 000 zł",
+   "grupa": "Komórki lokatorskie",
+   "powierzchnia": ",3"
+  },
+  {
+   "id": "A.01.KL03",
+   "cena": "9 000 zł",
+   "grupa": "Komórki lokatorskie",
+   "powierzchnia": "1,30"
+  },
+  {
+   "id": "A.01.KL04",
+   "cena": "13 000 zł",
+   "grupa": "Komórki lokatorskie",
+   "powierzchnia": ",69"
+  },
+  {
+   "id": "A.02.KL01",
+   "cena": null,
+   "grupa": "Komórki lokatorskie",
+   "powierzchnia": "3,6"
+  },
+  {
+   "id": "A.02.KL02",
+   "cena": "12 000 zł",
+   "grupa": "Komórki lokatorskie",
+   "powierzchnia": ",3"
+  },
+  {
+   "id": "A.02.KL03",
+   "cena": null,
+   "grupa": "Komórki lokatorskie",
+   "powierzchnia": "1,30"
+  },
+  {
+   "id": "A.02.KL04",
+   "cena": null,
+   "grupa": "Komórki lokatorskie",
+   "powierzchnia": ",69"
+  },
+  {
+   "id": "A.03.KL01",
+   "cena": null,
+   "grupa": "Komórki lokatorskie",
+   "powierzchnia": "3,6"
+  },
+  {
+   "id": "A.03.KL02",
+   "cena": null,
+   "grupa": "Komórki lokatorskie",
+   "powierzchnia": ",3"
+  },
+  {
+   "id": "A.03.KL03",
+   "cena": null,
+   "grupa": "Komórki lokatorskie",
+   "powierzchnia": "1,30"
+  },
+  {
+   "id": "A.03.KL04",
+   "cena": null,
+   "grupa": "Komórki lokatorskie",
+   "powierzchnia": ",69"
+  }
+ ]
+}

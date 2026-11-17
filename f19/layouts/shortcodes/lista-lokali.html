@@ -1,0 +1,103 @@
+{{- /*
+  Lista lokali, miejsc postojowych i komorek. Dane: data/lokale.json.
+  Wywolanie w tresci strony:  {{< lista-lokali >}}
+
+  cena = null oznacza pozycje sprzedana. Siatke robi CSS (skel): kafelki ida
+  ciagiem w jednym .row, a co czwarty dostaje klase z $ jako ostatni w rzedzie.
+*/ -}}
+{{- $d := .Site.Data.lokale -}}
+<div class="row">
+{{- range $i, $l := $d.lokale }}
+	<div class="{{ if eq (mod (add $i 1) 4) 0 }}3u$ 12u$(medium){{ else }}3u 12u(medium){{ end }}">
+
+			<div class="box">
+				<h5><span class="image left"><img src="{{ $l.logo }}" alt="" style="width:80px;height:30px;"/></span>{{ $l.id }} - {{ $l.pietro }}</h5>
+
+				<a href="{{ $l.karta_pdf }}" target="_blank"><img src="{{ $l.karta_img }}" alt="" /></a>
+
+				<div class="row">
+				  <div class="6u 12u(small)"><h4>{{ $l.powierzchnia }} m<sup>2</sup></h4></div>
+				  <div class="6u$ 12u$(small)"><h5>{{ $l.pokoje }}</h5></div>
+				</div>
+
+				  <h4 style="text-align: center">{{ if $l.cena }}<span class="price" data-mieszkanie="{{ $l.id }}" style="cursor:pointer; color:white; text-decoration:underline;">{{ $l.cena }}</span>{{ else }}Sprzedane{{ end }}</h4>
+			</div>
+
+	</div>
+{{- end }}
+	<div class="3u$ 12u$(medium)">
+
+	</div>
+</div>
+{{- /* ---------- miejsca postojowe i komorki ---------- */ -}}
+{{- $grupy := slice }}
+{{- range $d.miejsca_postojowe }}{{ $grupy = $grupy | append .grupa }}{{ end }}
+{{- $grupy = uniq $grupy }}
+</div>
+</section>
+
+<section id="two">
+	 <div class="inner">
+		<h3>Opcjonalne miejsca postojowe oraz komórki lokatorskie</h3>
+		<div class="row">
+{{- range $n, $g := $grupy }}
+			<div class="4u 12u$(medium)">
+				<h4>{{ $g }}</h4>
+					<div class="table-wrapper">
+						<table>
+							<thead>
+								<tr>
+									<th>Numer</th>
+									<th>Rodzaj</th>
+									<th>Cena</th>
+								</tr>
+							</thead>
+							<tbody>
+{{- range $d.miejsca_postojowe }}{{ if eq .grupa $g }}
+								<tr>
+									<td>{{ .id }}</td>
+									<td>{{ .rodzaj }}</td>
+									<td>{{ if .cena }}<h4 style="text-align: center"><span class="price" data-mieszkanie="{{ .id }}" style="cursor:pointer; color:white;">{{ .cena }}</span></h4>{{ else }}Sprzedane{{ end }}</td>
+								</tr>
+{{- end }}{{ end }}
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2"></td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+			</div>
+{{- end }}
+			<div class="4u$ 12u$(medium)">
+				<h4>Komórki lokatorskie</h4>
+					<div class="table-wrapper">
+						<table>
+							<thead>
+								<tr>
+									<th>Numer</th>
+									<th>Powierzchnia</th>
+									<th>Cena</th>
+								</tr>
+							</thead>
+							<tbody>
+{{- range $d.komorki }}
+								<tr>
+									<td>{{ .id }}</td>
+									<td>{{ .powierzchnia }} m<sup>2</sup></td>
+									<td>{{ if .cena }}<h4 style="text-align: center"><span class="price" data-mieszkanie="{{ .id }}" style="cursor:pointer; color:white;">{{ .cena }}</span></h4>{{ else }}Sprzedane{{ end }}</td>
+								</tr>
+{{- end }}
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="2"></td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
